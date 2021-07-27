@@ -1,0 +1,903 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.wallpaper-1 {
+  width: 100%;
+  height: 400px;
+  display: block;
+}
+
+.wallpaper-connector {
+  width: 100%;
+  height: 150px;
+  background-color: #99c1e4;
+}
+
+.wallpaper-page {
+  height: auto;
+  z-index: -10;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.main-slider-frame {
+  position: relative;
+  height: 300px;
+  width: auto;
+  border: 3px solid #2e2e2e;
+  background-color: whitesmoke;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.col {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.main-slider-img {
+  max-width: 100%;
+  -webkit-animation: fade 5s linear infinite;
+          animation: fade 5s linear infinite;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.apartmentShowcase-selectRoom {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  top: 0px;
+  position: relative;
+  height: 80px;
+  width: 100%;
+  background-color: aliceblue;
+  border: 4px solid #7a7af2;
+  border-radius: 6px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.apartmentShowcase-selectRoom-alt {
+  margin-top: 80px;
+  position: relative;
+  height: 80px;
+  width: 100%;
+  background-color: aliceblue;
+  border: 4px solid #7a7af2;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  top: 0px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.apartmentShowcase-selectRoom:hover {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 20px;
+  top: 0px;
+  position: relative;
+  height: 80px;
+  width: 100%;
+  background-color: #0c1c2b;
+  border: 4px solid #7a7af2;
+  border-radius: 6px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.apartmentShowcase-selectRoom-alt:hover {
+  position: relative;
+  height: 80px;
+  width: 100%;
+  background-color: #0d283f;
+  border: 4px solid #7a7af2;
+  border-radius: 6px;
+  top: 0px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+@-webkit-keyframes buttons4 {
+  0% {
+    background-color: aliceblue;
+  }
+  100% {
+    background-color: blueviolet;
+  }
+}
+
+@keyframes buttons4 {
+  0% {
+    background-color: aliceblue;
+  }
+  100% {
+    background-color: blueviolet;
+  }
+}
+
+.row-main-slider-frame {
+  position: relative;
+  padding-top: 200px;
+}
+
+.apartmentShowcase-frame {
+  height: 800px;
+  width: auto;
+  position: relative;
+  height: min 100px;
+  width: min 100px;
+  -webkit-box-sizing: padding-box;
+          box-sizing: padding-box;
+  background-color: orange;
+}
+
+.apartmentShowcase-overview {
+  height: 80%;
+  width: 100%;
+  height: min 10px;
+  width: min 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: slateblue solid 5px;
+  position: relative;
+  background-color: blueviolet;
+}
+
+.apartmentShowcase-row {
+  left: 0px;
+  height: 1200px;
+  width: auto;
+}
+
+.apartmentShowcase-upBar {
+  overflow: hidden;
+  text-align: center;
+  top: 0px;
+  position: relative;
+  width: 100%;
+  height: 20%;
+  background-color: skyblue;
+  border: slateblue solid 5px;
+}
+
+.apartmentShowcase-upBar-apartmentName {
+  position: absolute;
+  margin-left: 50%;
+  margin-right: 50%;
+  top: 30%;
+}
+
+.apartmentShowcase-upBar-button, .apartmentShowcase-upBar-button-back, .apartmentShowcase-upBar-button-next {
+  position: relative;
+  height: 100px;
+  width: 100px;
+}
+
+.apartmentShowcase-upBar-button-back {
+  float: left;
+  background-color: red;
+}
+
+.apartmentShowcase-upBar-button-next {
+  float: right;
+  background-color: salmon;
+}
+
+.apartmentShowcase-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.apartmentShowcase {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+}
+
+.calculatorApartment-body {
+  position: relative;
+  border: slateblue solid 5px;
+  background-color: skyblue;
+  width: 100%;
+  height: 700px;
+  text-align: center;
+}
+
+.calculatorApartment-priceInYear-string {
+  position: absolute;
+  top: 0px;
+  left: 45%;
+}
+
+.calculatorApartment-priceInMouth-string {
+  position: absolute;
+  top: 0px;
+  left: 45%;
+}
+
+.calculatorApartment-monthlyRate-symbols, .calculatorApartment-monthlyRate-symbols-leftSite, .calculatorApartment-monthlyRate-symbols-rightSite {
+  position: relative;
+  float: left;
+}
+
+.calculatorApartment-monthlyRate-symbols-leftSite {
+  float: left;
+  position: relative;
+  top: 20px;
+  left: 20%;
+  background-color: blue;
+}
+
+.calculatorApartment-monthlyRate-symbols-rightSite {
+  overflow: hidden;
+  position: relative;
+  top: 20px;
+  left: 25%;
+  background-color: red;
+}
+
+.calculatorApartment-priceInMouth, .calculatorApartment-priceInYear {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  border-radius: 8px;
+  background-color: whitesmoke;
+  height: 75px;
+  width: 50%;
+}
+
+.calculatorApartment-priceInMouth-symbols {
+  float: left;
+  position: relative;
+}
+
+.calculatorApartment-priceInYear {
+  top: 30%;
+}
+
+.calculatorApartment-buttonsOfCalculator {
+  position: relative;
+  top: 50%;
+  left: 15px;
+  height: 30%;
+  width: 40%;
+  background-color: red;
+}
+
+.calculatorApartment-buttonsOfCalculator-textarea {
+  margin-bottom: 10px;
+  overflow: hidden;
+  border-radius: 15px;
+  border: #272727 solid 5px;
+  height: 75px;
+  width: auto;
+  background-color: whitesmoke;
+}
+
+.calculatorApartment-buttonsOfCalculator-textarea-leftSite {
+  float: left;
+  width: 50%;
+  background-color: blue;
+}
+
+.calculatorApartment-buttonsOfCalculator-textarea-rightSite {
+  display: inline;
+  background-color: red;
+  float: right;
+  width: 50%;
+}
+
+.calculatorApartment-buttonsOfCalculator-symbolForCacl {
+  border-radius: 10px;
+  border: black solid 3px;
+  float: left;
+  background-color: whitesmoke;
+  height: 50%;
+  width: 20%;
+}
+
+.calculatorApartment-buttonsOfCalculator-symbolForCacl-forSmooth {
+  right: 0px;
+  top: 0px;
+  border: black solid 3px;
+  float: left;
+  width: 10%;
+  height: 20%;
+  background-color: aqua;
+}
+
+.calculatorApartment-selectDistantOfMortgage {
+  width: 40%;
+  height: 150px;
+  display: block;
+  top: 15%;
+  margin: auto;
+  position: relative;
+  background-color: red;
+}
+
+.calculatorApartment-selectDistantOfMortgage-symbols {
+  position: relative;
+  text-align: unset;
+  height: 100%;
+  width: 100%;
+  background-color: aliceblue;
+  float: left;
+  border: black solid 4px;
+}
+
+.calculatorApartment-selectDistantOfMortgage-output {
+  font-size: 36px;
+  height: 70px;
+  background-color: whitesmoke;
+  border: black solid 4px;
+}
+
+.calculatorApartment-selectDistantOfMortgage-container {
+  height: 100%;
+  width: 100%;
+}
+
+.calculatorApartment-apartmentPrice {
+  width: 50%;
+  height: 150px;
+  float: left;
+  font-size: 36px;
+  left: 20%;
+  position: absolute;
+  background-color: #999;
+}
+
+.calculatorApartment-monthlyPayment {
+  width: 60%;
+  height: 150px;
+  display: block;
+  text-align: center;
+  margin: auto;
+  top: 10%;
+  position: relative;
+  font-size: 200%;
+  background-color: #999;
+}
+
+.calculatorApartment-mortgagePercentage {
+  width: 10%;
+  height: 150px;
+  left: 70%;
+  font-size: 20px;
+  position: relative;
+  background-color: yellow;
+}
+
+.calculatorApartment-mortgagePercentage-procent {
+  top: 40px;
+  position: absolute;
+  font-size: 70px;
+  left: 20%;
+}
+
+.calculatorApartment-container-monthlyAndMortgage {
+  position: relative;
+  top: 5%;
+}
+
+.apartmentInformation-body {
+  text-align: center;
+  position: relative;
+  border: slateblue solid 5px;
+  background-color: skyblue;
+  height: 800px;
+  width: auto;
+}
+
+.whatsOutside-body {
+  border: slateblue solid 5px;
+  position: relative;
+  background-color: skyblue;
+  height: 1000px;
+  width: auto;
+}
+
+.whatsOutside-arrowButtonJpg-left {
+  top: calc(50% - 20% / 2);
+  position: relative;
+  height: 20%;
+  width: 100%;
+}
+
+.whatsOutside-arrowButtonJpg-right {
+  top: calc(50% - 20% / 2);
+  position: relative;
+  height: 20%;
+  width: 100%;
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1);
+}
+
+.whatsOutside-showcase {
+  margin-right: 5%;
+  margin-left: 5%;
+  text-align: center;
+  margin-bottom: 25px;
+  top: 50px;
+  position: relative;
+  background-color: #eec882;
+  height: 800px;
+}
+
+.whatsOutside-swipeRight {
+  display: block;
+  height: 100%;
+  width: 10%;
+  float: left;
+  background-color: whitesmoke;
+}
+
+.whatsOutside-swipeLeft {
+  display: block;
+  height: 100%;
+  width: 10%;
+  float: left;
+  background-color: whitesmoke;
+}
+
+.presentationOfTheCompany-body {
+  position: relative;
+  background-color: skyblue;
+  border: slateblue solid 5px;
+  height: 800px;
+  width: auto;
+}
+
+.apartmentInformation-window {
+  padding: 40px;
+  height: 600px;
+  background-color: #69b9d8;
+}
+
+.cartCompanyEmployees-body {
+  background-color: skyblue;
+  border: slateblue solid 5px;
+  position: relative;
+  width: auto;
+  height: 800px;
+}
+
+.cartCompanyEmployees-positionForCart {
+  position: absolute;
+  top: 100px;
+  left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: skyblue;
+  height: 600px;
+  width: 90%;
+  text-align: center;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.cartCompanyEmployees-showcaseCatr-img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.cartCompanyEmployees-showcaseCatr1 {
+  position: relative;
+  height: 400px;
+  width: 80%;
+  border: #1aacac solid 6px;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #66bcdf;
+  left: 10%;
+}
+
+.cartCompanyEmployees-showcaseCatr {
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  float: left;
+  position: relative;
+  height: 500px;
+  width: 33%;
+  background-color: palegreen;
+}
+
+.cartCompanyEmployees-showcaseCatr-circleForImg {
+  overflow: hidden;
+  margin-top: 20px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: calc((50%) - (60% / 2));
+  height: 60%;
+  width: 60%;
+  border-radius: 50%;
+  border: #1aacac 5px solid;
+}
+
+.cartCompanyEmployees-showcaseCatr-information {
+  position: relative;
+  background-color: #66bcdf;
+  width: 100%;
+  height: calc(100% - 250px);
+}
+
+.cartCompanyEmployees-showcaseCatr-name {
+  position: relative;
+  background-color: #66bcdf;
+  width: 100%;
+  height: 30px;
+}
+
+.cartCompanyEmployees-contaiterForCart {
+  position: absolute;
+  top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  background-color: skyblue;
+}
+
+.cartCompanyEmployees-containerForButton {
+  position: relative;
+  background-color: #78bad4;
+  height: 250px;
+  width: 100%;
+}
+
+.cartCompanyEmployees-buttonNext {
+  float: right;
+  height: 100px;
+  width: 100px;
+  background-color: olivedrab;
+}
+
+.cartCompanyEmployees-buttonPrev {
+  float: left;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+.footer {
+  margin-top: 100px;
+  position: relative;
+  bottom: 0px;
+  height: 200px;
+  width: 100%;
+  background-color: aqua;
+}
+
+.apartmentShowcase-overview-image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.whatsOutside-image {
+  border: 0.1px solid blue;
+  background-color: #278824;
+  width: 80%;
+  height: 100%;
+  float: left;
+  display: block;
+}
+
+.presentationOfTheCompany-CompanyInformation {
+  height: 80%;
+  width: 80%;
+  background-color: skyblue;
+  border: slateblue solid 4px;
+  position: absolute;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  padding: 5%;
+  font-size: 48px;
+}
+
+.header-body {
+  width: 100%;
+  font-family: Helvetica;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 30;
+  background-color: #51c6f5;
+}
+
+.apartmentShowcase {
+  padding-left: 10px;
+  height: 10em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-item {
+  display: inline-block;
+  width: auto;
+  padding: 10px 25px;
+  font-size: 18px;
+  margin-left: 0px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+  border-radius: 5px;
+}
+
+.header-item:hover {
+  background-color: aqua;
+}
+
+.header-item-section2 {
+  display: inline-block;
+  padding: 10px 25px;
+  font-size: 18px;
+  margin-left: 0px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.header-section2 {
+  float: right;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-number {
+  display: inline-block;
+  padding: 10px 25px;
+  font-size: 18px;
+  margin-left: 5px;
+  background-color: #f7a56b;
+  border: 3px solid #e9872b;
+  border-radius: 30px;
+}
+
+.header-constructorLogo {
+  border: black solid 1px;
+  width: 100px;
+  height: 100%;
+}
+
+.PageCallToUs-body {
+  width: 100%;
+  height: 800px;
+  border: slateblue solid 5px;
+  background-color: skyblue;
+  text-align: center;
+}
+
+.PageCallToUs-content {
+  position: relative;
+  background-color: #64a7c2;
+  margin: auto;
+  top: 15%;
+  height: 200px;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.PageCallToUs-inscriptionOurNumber-container {
+  float: right;
+}
+
+.PageCallToUs-inscriptionOurNumber-text {
+  vertical-align: middle;
+  display: table-cell;
+  padding-right: 30px;
+  height: 200px;
+  width: 100%;
+  font-size: 50px;
+  font-size: calc(30px + 26 * (100vw / 1920));
+}
+
+.PageCallToUs-number-text {
+  padding-left: 30px;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 200px;
+  font-size: 50px;
+  font-size: calc(30px + 26 * (100vw / 1920));
+}
+
+.PageCallToUs-number-container {
+  left: 60%;
+  height: 100%;
+  width: auto;
+  background-color: blueviolet;
+  position: absolute;
+}
+
+.nonPading {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.nonPading-pageCallToUs-OurEmail {
+  background-color: skyblue;
+  padding-right: 0px;
+  padding-left: 0px;
+  height: 100%;
+}
+
+.PageCallToUs-OurEmail-body {
+  position: relative;
+  height: 400px;
+  background-color: darkcyan;
+  width: 100%;
+}
+
+.PageCallToUs-OurEmail-content {
+  display: table-cell;
+  vertical-align: middle;
+  height: 200px;
+  width: 100%;
+  background-color: #333;
+}
+
+.PageCallToUs-OurEmail-container {
+  position: relative;
+  top: 25%;
+  margin: auto;
+  width: 50%;
+  height: 400px;
+}
+
+.PageCallToUs-OurEmail-container-input {
+  font-size: 40px;
+  border-radius: 16px;
+  left: 0px;
+  position: absolute;
+  background-color: #d8d8d8;
+  width: 80%;
+  height: 70%;
+  top: 30%;
+}
+
+.PageCallToUs-OurEmail-containerInput {
+  position: relative;
+  height: 150px;
+  top: calc(50% - 150px / 2);
+}
+
+.PageCallToUs-OurEmail-container-input-placeholder-wrongEmail {
+  background-color: red;
+}
+
+.PageCallToUs-OurEmail-IncorrectlyEmail {
+  height: 30%;
+  border-radius: 8px;
+  position: relative;
+  background-color: red;
+}
+
+.PageCallToUs-OurEmail-container-button {
+  font-size: 40px;
+  border-radius: 8px;
+  position: absolute;
+  left: 80%;
+  background-color: #999;
+  width: 20%;
+  height: 70%;
+  top: 30%;
+  background-color: #d69418;
+}
+
+.ForLeftShowcase {
+  margin: 0px;
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  height: 80%;
+}
+
+.ForRightShowcase {
+  margin: 0px;
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  height: 80%;
+}
+
+.Container60 {
+  position: relative;
+  left: 20%;
+  background-color: aqua;
+  width: 60%;
+  height: 100%;
+}
+
+.colWithoutPadding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.apartmentShowcase-wallpaper {
+  position: relative;
+  height: 800px;
+  background-color: skyblue;
+  border: slateblue solid 5px;
+}
+
+.apartmentShowcase-body {
+  height: 800px;
+}
+
+.red-row {
+  height: 100%;
+  width: 100%;
+}
+
+.wallpaper {
+  background-color: #64b9f1;
+  z-index: -10;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+/*# sourceMappingURL=index.css.map */
