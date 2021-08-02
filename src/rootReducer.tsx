@@ -15,7 +15,7 @@ export interface mainSliderStateType {
 
 
 let mainSliderState = {
-    slider: [{hello: 5}],
+    slider: [],
     mainSliderPosition: [0],
     numbers: [],
     mainSliderScreens: [],
