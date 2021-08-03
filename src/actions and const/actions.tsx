@@ -29,7 +29,7 @@ type PropertiesType<T> = T extends { [key: string]: infer U } ? U : never;
 
 type GetActionsTypes<T extends { [key: string]: (...args: any[]) => any }> = ReturnType<PropertiesType<T>>;
 
-// type GetActionsTypes<T> = ReturnType<PropertiesType<T>>
+
 
 export const actions = {
     setMainSliderPosition: (position: number) => ({ type: MAIN_SLIDER_POSITION, position } as const),
