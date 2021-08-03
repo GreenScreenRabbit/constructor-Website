@@ -9,8 +9,7 @@ export interface mainSliderStateType {
     mainSliderPosition: number[],
     numbers: number[],
     mainSliderScreens: string[],
-    anyArr: any[],
-    anyArr1: any[],
+
 }
 
 
